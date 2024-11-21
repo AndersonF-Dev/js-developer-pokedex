@@ -51,7 +51,7 @@
 }
 .nome-pokemonModal-posicao{
     /* background-color: blue; */
-    min-width: 350px;
+    min-width: 300px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -76,8 +76,8 @@
 
 .fechar{
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -1px;
+    right: -1px;
     color: #ffffff;
     background-color: #f01717;
     border-radius: 50%;
@@ -88,8 +88,8 @@
 }
 .modalPokemon img{
     /* background-color: #f01717; */
-    width: 62%;
-    margin-top: 40px;
+    width: 60%;
+    margin-top: 60px;
     margin-left: -22px;
     z-index: 4;
     position: absolute;
@@ -97,7 +97,7 @@
 }
 .modalDetalhis{
     /* background-color: #ffffff; */
-    min-width: 400px;
+    min-width: 650px;
     height: 151px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -108,7 +108,7 @@
     margin-right: 0px;
 
     display: flex;
-    justify-content: center;
+    justify-content: end;
     /* align-items: center; */
     position: absolute;
     
@@ -165,3 +165,93 @@
 .janela-modal.abrir{
     display: flex;
 }
+
+@media screen and (max-width: 320px){
+    .modalContent {
+        min-width: 300px;
+    }
+
+    .modalPokemon{
+        width: 300px;
+    }
+
+    .modalDetalhis{
+        background-color: #0ca782;
+        min-width: 100px;
+    } 
+
+    .typesModalPosition {
+         /* background-color: #f01717; */
+        margin-right: 0px;
+    }
+}
+ /* @media screen and (max-width: 1370px) {
+    .content {
+        max-width: 992px;
+        background-color: black;
+    } */
+
+    /* .modalPokemon{
+        background-color: #77c850;
+        color: #ffffff;
+    
+        width: 900px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 20px;
+        margin-top: -10px;
+    }
+
+    .nome-pokemonModal{
+        font-size: 2rem;
+    }
+    .modalPokemon img{
+        background-color: #f01717;
+        width: 30%;
+        margin-top: 60px;
+        margin-right: 200px;
+        z-index: 4;
+        position: absolute;
+        
+    }
+
+    
+    
+}  */
+
+/* @media screen and (max-width: 1000px){
+    .modalPokemon{
+        background-color: #77c850;
+        color: #ffffff;
+    
+        width: 780px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 20px;
+        margin-top: -10px;
+    }
+
+    .modalPokemon img{
+        background-color: #f01717; 
+        width: 43%;
+        margin-top: 60px;
+        margin-left: -72px;
+        z-index: 4;
+        position: absolute;
+        
+    }
+
+    .modalDetalhis{
+        background-color: #0ca782;
+        max-width: 200px;
+    } 
+
+    .typesModalPosition {
+         background-color: #f01717;
+        margin-right: 80px;
+    }
+}  */

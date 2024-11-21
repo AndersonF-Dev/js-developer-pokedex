@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #cdd3df;
 }
 
 .content {
@@ -12,6 +12,9 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -20,5 +23,6 @@ body {
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+
     }
 }
