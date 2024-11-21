@@ -1,0 +1,167 @@
+
+/* estilos do modal */
+.janela-modal {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: #00000090;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 863;
+}
+
+.modalContent {
+    width: 60%;
+    min-width: 360px;
+    min-height: 450px;
+    background-color: #ffffff5e;
+    backdrop-filter: blur(10px);
+    border-radius: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    overflow: hidden;
+
+}
+
+.modalPokemon{
+    /* background-color: #77c850; */
+    color: #ffffff;
+
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    margin-top: -10px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+}
+.nome-pokemonModal-posicao{
+    /* background-color: blue; */
+    min-width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.nome-pokemonModal{
+    background-color: #f01717;
+    font-size: 1.1rem;
+    width: 0px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+    
+}
+
+.numeroModal{
+    color: #0ca782;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: #ffffff;
+    background-color: #f01717;
+    border-radius: 50%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.modalPokemon img{
+    /* background-color: #f01717; */
+    width: 62%;
+    margin-top: 40px;
+    margin-left: -22px;
+    z-index: 4;
+    position: absolute;
+    
+}
+.modalDetalhis{
+    /* background-color: #ffffff; */
+    min-width: 400px;
+    height: 151px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    overflow: hidden;
+    list-style: none;
+
+    margin-top: 300px;
+    margin-right: 0px;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    
+}
+
+.detail{
+    list-style: none;
+}
+.typesModalPosition {
+    /* background-color: #f01717; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: -20px;
+    margin-right: 0px;
+    /* padding: 0 20px; */
+    font-size: 1rem;
+    list-style: none;
+
+    /* min-width: 400px; */
+    
+
+   
+}
+
+.type {
+    color: #fff;
+    padding: .75rem ;
+    margin: .25rem 0;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    margin-right: 40px;
+}
+.typeModal {
+    list-style: none;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.typeModalList {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    
+}
+.janela-modal.abrir{
+    display: flex;
+}
