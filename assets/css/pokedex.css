@@ -155,20 +155,6 @@
     }
 }
 
-@media (max-width: 400px) {
-    .pokemons {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .fechar{
-        tr
-    }
-
-    .modalDetalhis{
-        background-color: #678fee;
-    }
-}
-
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;

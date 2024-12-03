@@ -25,6 +25,7 @@ function convertPokemonToLi(pokemon) {
 }
 
 // Função para carregar um Pokémon específico no modal
+
 function carregarPokemonNoModal(pokemon) {
     return `
         <li class="modalPokemon ${pokemon.type}">
@@ -42,19 +43,6 @@ function carregarPokemonNoModal(pokemon) {
         </li>
     `;
 }
-
-// // Função para abrir o modal
-// function abrirModal() {
-//     const modal = document.getElementById('janela-modal');
-//     modal.classList.add('abrir');
-
-//     // Fechar o modal ao clicar fora ou no botão de fechar
-//     modal.addEventListener('click', (event) => {
-//         if (event.target.id === 'fechar' || event.target.id === 'janela-modal') {
-//             modal.classList.remove('abrir');
-//         }
-//     });
-// }
 
 // Função para carregar Pokémon na lista principal
 function loadPokemonItens(offset, limit) {

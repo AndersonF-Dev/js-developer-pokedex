@@ -2,7 +2,10 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
+/* @font-face {
+    font-family: 'Hollow';
+    src: url(../font/Pokemon\ Solid.ttf);
+} */
 body {
     background-color: #cdd3df;
 }
@@ -13,7 +16,7 @@ body {
     padding: 1rem;
     background-color: #fff;
     overflow: hidden;
-    overflow-y: scroll;
+    
     
 }
 
