@@ -1,0 +1,70 @@
+
+/* @media (min-width: 375px){
+    .fechar{
+        top: 20px;
+        right: -5px;
+    }
+
+    .typesModalPosition{
+        background-color: brown;
+        margin-right: 10rem;
+    } 
+}
+
+@media (min-width: 425px){
+    .fechar{
+        top: 17px;
+        right: 19px;
+    }
+
+    .modalPokemon img {
+        width: 65%;
+        left: 30px;
+    }
+
+    .typesModalPosition{
+        background-color: brown;
+        margin-right: 10rem;
+    } 
+}
+@media (min-width: 768px){
+    .modalPokemon{
+        width: 540px;
+        height: 465px;
+    }
+
+    .nome-pokemonModal{
+        font-size: 2rem;
+    }
+    .numeroModal{
+        font-size: 1.2rem;
+    }
+
+    .fechar{
+        top: 20px;
+        right: 150px;
+    }
+    .modalPokemon img {
+        width: 55%;
+        left: 30px;
+    }
+
+    .typesModalPosition{
+        margin-right: 5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .modalContent {
+        max-width: 700px;
+    }
+     .modalPokemon img {
+        width: 55%;
+        left: 0px;
+    }
+
+    .typesModalPosition{
+        background-color: brown;
+        margin-right: 5rem;
+    } 
+} */

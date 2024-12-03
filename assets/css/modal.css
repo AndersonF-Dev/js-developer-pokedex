@@ -20,7 +20,7 @@
     min-height: 450px;
     background-color: #ffffff5e;
     backdrop-filter: blur(10px);
-    border-radius: 5%;
+    border-radius: 1rem;
     
     display: flex;
     flex-direction: column;
@@ -31,22 +31,23 @@
     margin: 0;
 
     overflow: hidden;
+    position: relative;
 
 }
 
 .modalPokemon{
     /* background-color: #77c850; */
     color: #ffffff;
-
+    overflow: hidden;
     width: 400px;
-    height: 450px;
+    height: 465px;
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 20px;
     margin-top: -10px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     
 }
 .nome-pokemonModal-posicao{
@@ -58,8 +59,9 @@
     margin-left: 20px;
 }
 .nome-pokemonModal{
-    background-color: #f01717;
+    /* background-color: #f01717; */
     font-size: 1.1rem;
+    text-transform: uppercase;
     width: 0px;
     height: 50px;
     margin-top: 0px;
@@ -76,27 +78,29 @@
 
 .fechar{
     position: absolute;
-    top: -1px;
-    right: -1px;
+    top: 0px;
+    right: 0px;
     color: #ffffff;
     background-color: #f01717;
     border-radius: 50%;
     border: none;
-    width: 25px;
-    height: 25px;
+    width: 2.188rem;
+    height: 2.188rem;
     cursor: pointer;
+    z-index: 1;
+    
 }
 .modalPokemon img{
     /* background-color: #f01717; */
     width: 60%;
     margin-top: 60px;
-    margin-left: -22px;
+    margin-left: 22px;
     z-index: 4;
     position: absolute;
     
 }
 .modalDetalhis{
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
     min-width: 650px;
     height: 151px;
     border-bottom-left-radius: 5%;
@@ -125,7 +129,7 @@
     align-items: center;
     gap: 15px;
     margin-top: -20px;
-    margin-right: 0px;
+    margin-right: -500px;
     /* padding: 0 20px; */
     font-size: 1rem;
     list-style: none;
@@ -166,7 +170,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 320px){
+/* @media screen and (max-width: 320px){
     .modalContent {
         min-width: 300px;
     }
@@ -184,7 +188,7 @@
          /* background-color: #f01717; */
         margin-right: 0px;
     }
-}
+} */
  /* @media screen and (max-width: 1370px) {
     .content {
         max-width: 992px;

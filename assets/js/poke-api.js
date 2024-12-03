@@ -1,20 +1,21 @@
 
-const pokeApi = {}
+/*jslint es6 */
+'use strict';
+const pokeApi = {};
 
 function convertPokeApiDetailToPokemon(pokeDetail) {
-    const pokemon = new Pokemon()
-    pokemon.number = pokeDetail.id
-    pokemon.name = pokeDetail.name
+    const pokemon = new Pokemon();
+    pokemon.number = pokeDetail.id;
+    pokemon.name = pokeDetail.name;
 
-    const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
-    const [type] = types
+    const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name);
+    const [type] = types;
 
-    pokemon.types = types
-    pokemon.type = type
+    pokemon.types = types;
+    pokemon.type = type;
+    pokemon.photo = pokeDetail.sprites.other.dream_world.front_default;
 
-    pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
-
-    return pokemon
+    return pokemon;
 }
 
 pokeApi.getPokemonDetail = (pokemon) => {
@@ -36,4 +37,4 @@ pokeApi.getPokemons = (offset = 0, limit = 4) => {
             console.error('Erro ao carregar Pokémon:', error);
             return []; // Retorna lista vazia em caso de erro
         });
-}
+};

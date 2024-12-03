@@ -1,6 +1,10 @@
+
+/*jslint es6 */
+'use strict';
+
 function abrirModal() {
     const modal = document.getElementById('janela-modal')
-    modal.classList.add('abrir')
+    modal.classList.add('abrir');
 
     // console.log('Estado do modal:', modal.outerHTML);
 
@@ -10,9 +14,7 @@ function abrirModal() {
         } console.log(document.getElementById('janela-modal').outerHTML);
 
 
-    })
-    
-
+    });
 }
 
 
